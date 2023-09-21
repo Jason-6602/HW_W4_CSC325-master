@@ -12,7 +12,8 @@ public class Intern extends StaffEmployee
     //-----------------------------------------------------------------
     public Intern(String eName, String eAddress, String ePhone)
     {
-        
+        //an intern does not have ssn or rate
+        super(eName, eAddress, ePhone, null, 0.0);
     }
 
     //-----------------------------------------------------------------
